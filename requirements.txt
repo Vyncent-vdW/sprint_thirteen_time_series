@@ -1,0 +1,37 @@
+###############################################################################
+###############################################################################
+# Sprint 13: Car Dealership Sales Forecasting (sprint_thirteen_car_dealership_nb.ipynb)
+# Core dependencies for EDA, feature engineering, time series analysis, and ML
+# applied to dealership sales/inventory/promotions forecasting.
+# Tested with Python 3.10/3.11 on Windows.
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# (Optional) Launch:
+#   jupyter notebook sprint_thirteen_car_dealership_nb.ipynb
+###############################################################################
+
+numpy==1.26.4            # Numerical arrays
+pandas==2.2.2            # Data handling / resampling
+scikit-learn==1.4.2      # Train/test split, models, metrics
+statsmodels==0.14.1      # AR, ARIMA, decomposition, ACF/PACF
+xgboost==2.0.3           # Gradient boosting regressor
+matplotlib==3.8.4        # Static plotting
+seaborn==0.13.2          # Statistical visualization
+plotly==5.22.0           # (Optional) Interactive exploration
+openpyxl==3.1.3          # Read/write Excel files (common dealership data format)
+
+# Notebook environment
+ipykernel==6.29.4        # Kernel for Jupyter
+jupyter==1.0.0           # Notebook interface (classic)
+
+# Optional utilities (remove if minimizing)
+tqdm==4.66.4             # Progress bars
+
+###############################################################################
+# Notes:
+# - Pin versions for reproducibility.
+# - Remove optional libs (plotly/tqdm/openpyxl) if not needed to slim environment.
+# - No deep learning libs required.
+# - Remove plotly/tqdm if not used to slim
